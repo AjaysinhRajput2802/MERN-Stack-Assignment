@@ -63,7 +63,7 @@ const App = () => {
           <Table aria-label="simple table" stickyHeader>
             <TableHead>
               <TableRow>
-                <TableHeadCell>Id</TableHeadCell>
+                <TableHeadCell align="center">Id</TableHeadCell>
                 <TableHeadCell align="center">Name</TableHeadCell>
                 <TableHeadCell align="center">Email</TableHeadCell>
                 <TableHeadCell align="center">Gender</TableHeadCell>
@@ -72,7 +72,7 @@ const App = () => {
             </TableHead>
             <TableBody>
               {data.map((row) => (
-                <TableRow key={row.id} style={{ backgroundColor: "#DEEFE7" }}>
+                <TableRow key={row.id} align="center">
                   <TableBodyCell component="th" scope="row">
                     {row.id}
                   </TableBodyCell>
