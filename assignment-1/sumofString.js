@@ -1,6 +1,6 @@
 /*
     Assignment 1 - sumofString
-    Author: Ajaysinh Rajput
+    Author : Ajaysinh Rajput
 */
 
 function sumofString(str){
